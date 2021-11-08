@@ -1,0 +1,15 @@
+[package]
+name = "sigmap"
+version = "0.1.0"
+edition = "2021"
+description = "Maps process signals from one to another"
+license = "MIT"
+
+[dependencies]
+signal-hook = "0.3"
+
+[workspace]
+members = [
+    ".",
+    "echosig",
+]
